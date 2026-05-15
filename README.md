@@ -9,7 +9,7 @@
 
 ### 1. Распределение классов
 
-![Матрица ошибок](https://github.com/z123p2/churn_prediction/blob/main/images/class_distribution.png?raw=true)
+![Распределение классов](https://github.com/z123p2/churn_prediction/blob/main/images/class_distribution.png?raw=true)
 
 ### 2. Важность признаков
 
