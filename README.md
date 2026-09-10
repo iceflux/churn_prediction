@@ -1,56 +1,66 @@
-# churn_prediction — прогноз оттока клиентов
+English | [Русский](README.ru.md)
 
-## Описание
+# churn_prediction
 
-Модель машинного обучения для предсказания оттока клиентов телеком-оператора.  
-**Алгоритм:** XGBoost. **Точность:** 79.6%.
+![Python](https://img.shields.io/badge/python-3.x-blue)
+![XGBoost](https://img.shields.io/badge/model-XGBoost-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
 
-## Ключевые результаты
+Customer churn prediction model for a telecom operator.
+**Algorithm:** XGBoost. **Accuracy:** 79.6%.
 
-### 1. Распределение классов
+## Key results
 
-![Распределение классов](https://github.com/z123p2/churn_prediction/blob/main/images/class_distribution.png?raw=true)
+### 1. Class distribution
 
-### 2. Важность признаков
+![Class distribution](https://github.com/z123p2/churn_prediction/blob/main/images/class_distribution.png?raw=true)
 
-![Важность признаков](https://github.com/z123p2/churn_prediction/blob/main/images/feature_importance.png?raw=true)
+### 2. Feature importance
 
-### 3. Влияние на отток (+ увеличивает, - снижает)
+![Feature importance](https://github.com/z123p2/churn_prediction/blob/main/images/feature_importance.png?raw=true)
 
-![Влияние признаков](https://github.com/z123p2/churn_prediction/blob/main/images/churn_influence.png?raw=true)
+### 3. Effect on churn (+ increases, - decreases)
 
-## Выводы
+![Feature influence](https://github.com/z123p2/churn_prediction/blob/main/images/churn_influence.png?raw=true)
 
-**1. Качество модели**
-- Точность модели: 79.60%
-- Модель хорошо предсказывает остающихся клиентов (89%), но хуже распознаёт уходящих (54%)
+## Conclusions
 
-**2. Самые важные признаки (что влияет на отток)**
+**1. Model quality**
+- Accuracy: 79.60%
+- The model predicts staying customers well (89%), but detects churners worse (54%)
 
-**Защищают от оттока (зелёные на графике):**
-- tenure (стаж) - чем дольше клиент с компанией, тем реже уходит
-- Contract One year (Contract Two year) - контракт на 1 и 2 года сильно снижает отток
-- InternetService_No - клиенты без интернета уходят реже
-- TechSupport - техподдержка помогает удерживать клиента
+**2. Most important features (what drives churn)**
 
-**Увеличивают отток (красные на графике):**
-- PaymentMethod Electronic check - электронные чеки ведут к уходу клиента
-- InternetService Fiber optic - оптоволокно приводит к высокому оттоку клиентов
-- PaperlessBilling - безбумажные счета увеличивают отток клиентов
-- OnlineSecurity - клиенты с онлайн-безопасностью уходят чаще
+**Protect against churn (green on the chart):**
+- tenure - the longer a customer stays with the company, the less likely they leave
+- Contract One year (Contract Two year) - 1 and 2 year contracts strongly reduce churn
+- InternetService_No - customers without internet churn less
+- TechSupport - tech support helps retain customers
 
-**3. Что делать бизнесу**
-- Переводить клиентов с помесячного контракта на годовой/двухгодичный
-- Проверить качество или стоимость оптоволоконного интернета по сравнению с конкурентами
-- Удерживать новых клиентов в первые 3-6 месяцев
-- Пересмотреть политику электронных чеков и безбумажных счетов
+**Increase churn (red on the chart):**
+- PaymentMethod Electronic check - electronic checks lead to churn
+- InternetService Fiber optic - fiber optic leads to high churn
+- PaperlessBilling - paperless billing increases churn
+- OnlineSecurity - customers with online security churn more often
 
-## Запуск
+**3. What the business should do**
+- Move monthly-contract customers to 1-2 year contracts
+- Review the quality or price of fiber optic internet compared to competitors
+- Retain new customers during the first 3-6 months
+- Review the electronic check and paperless billing policies
 
-1. Открыть [блокнот](churn_prediction.ipynb) в Colab или Jupyter
-2. Запустить все ячейки (данные скачаются автоматически)
+## How to run
 
-## Технологии
+1. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Open the [notebook](churn_prediction.ipynb) in Colab or Jupyter
+3. Run all cells (data is downloaded automatically)
+
+## Technologies
 
 - Python, pandas, numpy
 - XGBoost
