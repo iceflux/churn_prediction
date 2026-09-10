@@ -3,6 +3,7 @@
 # churn_prediction - прогноз оттока клиентов
 
 ![Python](https://img.shields.io/badge/python-3.x-blue)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/z123p2/churn_prediction/blob/main/churn_prediction.ipynb)
 ![XGBoost](https://img.shields.io/badge/model-XGBoost-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
