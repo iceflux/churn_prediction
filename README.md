@@ -3,7 +3,7 @@ English | [Русский](README.ru.md)
 # churn_prediction
 
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/z123p2/churn_prediction/blob/main/churn_prediction.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iceflux/churn_prediction/blob/main/churn_prediction.ipynb)
 ![XGBoost](https://img.shields.io/badge/model-XGBoost-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -14,15 +14,15 @@ Customer churn prediction model for a telecom operator.
 
 ### 1. Class distribution
 
-![Class distribution](https://github.com/z123p2/churn_prediction/blob/main/images/class_distribution.png?raw=true)
+![Class distribution](https://github.com/iceflux/churn_prediction/blob/main/images/class_distribution.png?raw=true)
 
 ### 2. Feature importance
 
-![Feature importance](https://github.com/z123p2/churn_prediction/blob/main/images/feature_importance.png?raw=true)
+![Feature importance](https://github.com/iceflux/churn_prediction/blob/main/images/feature_importance.png?raw=true)
 
 ### 3. Effect on churn (+ increases, - decreases)
 
-![Feature influence](https://github.com/z123p2/churn_prediction/blob/main/images/churn_influence.png?raw=true)
+![Feature influence](https://github.com/iceflux/churn_prediction/blob/main/images/churn_influence.png?raw=true)
 
 ## Conclusions
 

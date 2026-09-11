@@ -3,7 +3,7 @@
 # churn_prediction - прогноз оттока клиентов
 
 ![Python](https://img.shields.io/badge/python-3.x-blue)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/z123p2/churn_prediction/blob/main/churn_prediction.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/iceflux/churn_prediction/blob/main/churn_prediction.ipynb)
 ![XGBoost](https://img.shields.io/badge/model-XGBoost-orange)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
@@ -16,15 +16,15 @@
 
 ### 1. Распределение классов
 
-![Распределение классов](https://github.com/z123p2/churn_prediction/blob/main/images/class_distribution.png?raw=true)
+![Распределение классов](https://github.com/iceflux/churn_prediction/blob/main/images/class_distribution.png?raw=true)
 
 ### 2. Важность признаков
 
-![Важность признаков](https://github.com/z123p2/churn_prediction/blob/main/images/feature_importance.png?raw=true)
+![Важность признаков](https://github.com/iceflux/churn_prediction/blob/main/images/feature_importance.png?raw=true)
 
 ### 3. Влияние на отток (+ увеличивает, - снижает)
 
-![Влияние признаков](https://github.com/z123p2/churn_prediction/blob/main/images/churn_influence.png?raw=true)
+![Влияние признаков](https://github.com/iceflux/churn_prediction/blob/main/images/churn_influence.png?raw=true)
 
 ## Выводы
 
